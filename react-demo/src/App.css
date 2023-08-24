@@ -21,10 +21,12 @@ body {
 
 #heading {
   text-align: center;
-  margin: 2rem auto;
-  background-color: #327ec5;
+  text-transform: capitalize;
+  margin-top: 4rem;
+  font-size: 2rem;
+  /* background-color: #327ec5;
   color: #fff;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 2rem 0; */
 }
 
 @media screen and (min-width: 768px) {
@@ -37,6 +39,7 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
   /* margin: 2rem 1rem; */
 }
 .book img {
@@ -53,4 +56,17 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5rem;
   letter-spacing: 2px;
+}
+
+.book span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  background-color: #c35600;
+  color: #fff;
 }
